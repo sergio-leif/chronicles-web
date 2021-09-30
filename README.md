@@ -32,3 +32,5 @@ To run the app, execute the command:
 ```
 
 More help, you can follow the documentation for Flask https://flask.palletsprojects.com/en/1.1.x/quickstart/
+
+Run the application in Pythonanywhere: https://help.pythonanywhere.com/pages/Flask/
