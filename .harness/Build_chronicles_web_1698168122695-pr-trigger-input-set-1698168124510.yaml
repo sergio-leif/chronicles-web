@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_chronicles_web_1698168122695-pr-trigger-input-set
+  identifier: Build_chronicles_web_1698168122695prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: First_Project
+  pipeline:
+    identifier: Build_chronicles_web_1698168122695
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
