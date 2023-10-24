@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_chronicles_web_1698168122695-push-trigger-input-set
+  identifier: Build_chronicles_web_1698168122695pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: First_Project
+  pipeline:
+    identifier: Build_chronicles_web_1698168122695
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
